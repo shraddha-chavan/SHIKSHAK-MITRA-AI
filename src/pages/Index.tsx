@@ -28,8 +28,8 @@ const Index = () => {
                 <Button size="lg" className="gradient-primary shadow-primary" asChild>
                   <Link to="/teacher-dashboard">Get Started</Link>
                 </Button>
-                <Button size="lg" variant="outline" asChild>
-                  <Link to="/management-dashboard">View Demo</Link>
+                <Button size="lg" variant="outline" onClick={() => window.open('http://localhost:5000', '_blank')}>
+                  View Demo
                 </Button>
               </div>
             </div>
@@ -45,69 +45,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
-              Why Choose Shikshak Mitra AI?
-            </h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Transform your teaching with real-time analytics, AI-powered coaching, and data-driven insights
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="p-6 hover:shadow-lg transition-smooth">
-              <div className="rounded-full p-3 bg-primary/10 w-fit mb-4">
-                <TrendingUp className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="font-heading font-semibold text-xl mb-2">
-                Teacher Impact Score
-              </h3>
-              <p className="text-muted-foreground">
-                Track your teaching effectiveness with comprehensive metrics and trends
-              </p>
-            </Card>
-
-            <Card className="p-6 hover:shadow-lg transition-smooth">
-              <div className="rounded-full p-3 bg-secondary/10 w-fit mb-4">
-                <Zap className="h-6 w-6 text-secondary" />
-              </div>
-              <h3 className="font-heading font-semibold text-xl mb-2">
-                AI Coaching
-              </h3>
-              <p className="text-muted-foreground">
-                Get personalized suggestions to improve engagement and retention
-              </p>
-            </Card>
-
-            <Card className="p-6 hover:shadow-lg transition-smooth">
-              <div className="rounded-full p-3 bg-accent/10 w-fit mb-4">
-                <Users className="h-6 w-6 text-accent" />
-              </div>
-              <h3 className="font-heading font-semibold text-xl mb-2">
-                Student Analytics
-              </h3>
-              <p className="text-muted-foreground">
-                Understand student behavior, confusion points, and learning patterns
-              </p>
-            </Card>
-
-            <Card className="p-6 hover:shadow-lg transition-smooth">
-              <div className="rounded-full p-3 bg-info/10 w-fit mb-4">
-                <GraduationCap className="h-6 w-6 text-info" />
-              </div>
-              <h3 className="font-heading font-semibold text-xl mb-2">
-                Smart Activities
-              </h3>
-              <p className="text-muted-foreground">
-                Generate industry-aligned projects and assignments instantly
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-16 md:py-24">

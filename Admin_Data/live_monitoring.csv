@@ -1,0 +1,6 @@
+class_id,teacher_id,teacher_name,subject,class_section,current_engagement,current_attention,student_count,hand_raises,confusion_level,class_duration,status,start_time,tis_pulse
+CLS_001,T001,Dr. Sarah Smith,Mathematics,12-A,85,87,26,10,14,43,Live,16:28,green
+CLS_002,T002,Prof. John Wilson,Science,9-C,92,74,35,7,7,50,Live,16:11,green
+CLS_003,T003,Ms. Emily Davis,English,11-C,75,70,32,10,5,35,Live,15:58,yellow
+CLS_004,T004,Mr. Michael Brown,History,9-B,73,88,26,3,11,42,Live,16:19,yellow
+CLS_005,T005,Dr. Lisa Johnson,Physics,12-B,71,83,27,2,18,48,Live,16:20,red

@@ -1,0 +1,90 @@
+╔══════════════════════════════════════════════════════════════╗
+║         STUDENT ENGAGEMENT ANALYZER - QUICK GUIDE            ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 INSTALLATION
+───────────────
+pip install -r requirements.txt
+
+
+🚀 RUN ANALYSIS (3 WAYS)
+────────────────────────
+
+1️⃣ EASIEST - Auto-play after processing:
+   python run.py
+
+2️⃣ FULL CONTROL - Main analyzer:
+   python main_analyzer.py
+
+3️⃣ BATCH MODE - Process all videos in assets/:
+   python batch_processor.py
+
+
+📊 WHAT YOU GET
+───────────────
+✅ Focus Score (0-100)      - Eye tracking + position + movement
+✅ Sentiment (0-100)        - Emotion analysis (happy/neutral/confused/bored)
+✅ Interactions (count)     - Hand raises detected
+✅ Doubts (count)           - Estimated from confusion + interactions
+
+
+🎬 VIDEO OUTPUT
+───────────────
+• Green box = Focused student
+• Orange box = Moderate focus
+• Red box = Distracted
+• Emotion label below face
+• "HAND UP!" when raised
+• Red dot (?) = Has doubt
+• Live stats in top-left corner
+
+
+📁 OUTPUT FILES
+───────────────
+• output_analyzed.mp4       - Annotated video
+• engagement_report.json    - Detailed metrics
+
+
+🎮 VIDEO CONTROLS
+─────────────────
+SPACE = Pause/Resume
+Q     = Quit
+R     = Restart
+
+
+📂 FILE STRUCTURE
+─────────────────
+face_detector.py        → Detects all faces & eyes
+focus_analyzer.py       → Calculates focus scores
+sentiment_analyzer.py   → Analyzes emotions
+interaction_detector.py → Detects hand raises
+doubt_estimator.py      → Estimates doubts
+main_analyzer.py        → Orchestrates everything
+run.py                  → Simple runner (USE THIS!)
+batch_processor.py      → Process multiple videos
+
+
+💡 TIPS
+───────
+• Works with ANY classroom video
+• Detects ALL visible students automatically
+• Better lighting = better results
+• Front-facing videos work best
+• 720p+ resolution recommended
+
+
+🔧 TROUBLESHOOTING
+──────────────────
+No faces detected?
+→ Check video quality
+→ Ensure faces are visible
+→ Try better lighting
+
+Slow processing?
+→ Normal! Takes 1-2 min per video minute
+→ Processing every frame for accuracy
+
+
+📞 SUPPORT
+──────────
+Check README_NEW.md for detailed documentation

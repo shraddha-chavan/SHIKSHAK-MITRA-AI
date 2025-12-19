@@ -1,0 +1,51 @@
+feedback_id,teacher_id,class_date,student_feedback,engagement_level,attention_level,understanding_level,pace_feedback,question_quality,overall_rating
+fb_001,T001,2024-01-15,"Teacher explains clearly and asks good questions",high,high,high,just_right,excellent,5
+fb_002,T002,2024-01-15,"Too fast, hard to follow",low,low,low,too_fast,poor,2
+fb_003,T003,2024-01-16,"Boring lecture, no interaction",low,low,medium,too_slow,fair,2
+fb_004,T004,2024-01-16,"Love the activities and discussions",high,high,high,just_right,excellent,5
+fb_005,T005,2024-01-17,"Teacher doesn't wait for answers",medium,medium,medium,too_fast,fair,3
+fb_006,T001,2024-01-18,"Great examples from real life",high,high,high,just_right,excellent,5
+fb_007,T002,2024-01-18,"Still too fast, need more time",low,medium,low,too_fast,fair,2
+fb_008,T006,2024-01-19,"Teacher makes learning fun",high,high,high,just_right,excellent,5
+fb_009,T007,2024-01-19,"Confusing explanations",medium,low,low,just_right,poor,2
+fb_010,T003,2024-01-20,"Better today with group work",medium,medium,medium,just_right,good,3
+fb_011,T008,2024-01-22,"Teacher listens to our questions",high,high,high,just_right,excellent,5
+fb_012,T009,2024-01-22,"Too much talking, not enough doing",low,low,medium,too_slow,fair,2
+fb_013,T004,2024-01-23,"Always engaging and interesting",high,high,high,just_right,excellent,5
+fb_014,T010,2024-01-23,"Need more examples and practice",medium,medium,low,too_fast,fair,3
+fb_015,T005,2024-01-24,"Improved pace, better understanding",medium,high,medium,just_right,good,4
+fb_016,T011,2024-01-25,"Teacher uses good visuals",high,high,high,just_right,excellent,4
+fb_017,T002,2024-01-25,"Much better pace this week",medium,medium,medium,just_right,good,3
+fb_018,T012,2024-01-26,"Encourages participation well",high,high,high,just_right,excellent,5
+fb_019,T013,2024-01-26,"Monotone voice, hard to focus",low,low,medium,just_right,fair,2
+fb_020,T006,2024-01-29,"Best teacher, makes everything clear",high,high,high,just_right,excellent,5
+fb_021,T014,2024-01-29,"Needs more interactive activities",medium,low,medium,too_slow,fair,3
+fb_022,T007,2024-01-30,"Better explanations this week",medium,medium,medium,just_right,good,3
+fb_023,T015,2024-01-30,"Great at answering questions",high,high,high,just_right,excellent,5
+fb_024,T003,2024-01-31,"Much more engaging now",medium,high,medium,just_right,good,4
+fb_025,T016,2024-02-01,"Teacher connects topics to our lives",high,high,high,just_right,excellent,5
+fb_026,T009,2024-02-01,"Still too much lecture",low,low,medium,too_slow,fair,2
+fb_027,T017,2024-02-02,"Excellent use of technology",high,high,high,just_right,excellent,5
+fb_028,T010,2024-02-02,"More practice time helped",medium,medium,medium,just_right,good,4
+fb_029,T018,2024-02-05,"Teacher is patient and helpful",high,high,high,just_right,excellent,5
+fb_030,T013,2024-02-05,"More energy needed in teaching",low,low,medium,just_right,fair,2
+fb_031,T019,2024-02-06,"Love the hands-on experiments",high,high,high,just_right,excellent,5
+fb_032,T014,2024-02-06,"Better with more activities",medium,medium,medium,just_right,good,3
+fb_033,T020,2024-02-07,"Teacher makes difficult topics easy",high,high,high,just_right,excellent,5
+fb_034,T015,2024-02-08,"Always prepared and organized",high,high,high,just_right,excellent,5
+fb_035,T021,2024-02-08,"Need slower pace for complex topics",medium,medium,low,too_fast,fair,3
+fb_036,T016,2024-02-09,"Inspiring and motivating teacher",high,high,high,just_right,excellent,5
+fb_037,T022,2024-02-09,"Too many questions, not enough teaching",medium,low,low,just_right,fair,3
+fb_038,T017,2024-02-12,"Perfect balance of teaching and practice",high,high,high,just_right,excellent,5
+fb_039,T023,2024-02-12,"Needs to check if we understand",medium,medium,low,too_fast,fair,3
+fb_040,T018,2024-02-13,"Creates positive learning environment",high,high,high,just_right,excellent,5
+fb_041,T024,2024-02-13,"Boring presentations, need variety",low,low,medium,too_slow,poor,2
+fb_042,T019,2024-02-14,"Best science teacher ever",high,high,high,just_right,excellent,5
+fb_043,T025,2024-02-14,"Doesn't explain clearly",low,medium,low,just_right,poor,2
+fb_044,T020,2024-02-15,"Makes learning enjoyable",high,high,high,just_right,excellent,5
+fb_045,T021,2024-02-15,"Better pace now, understanding improved",medium,high,medium,just_right,good,4
+fb_046,T026,2024-02-16,"Excellent at differentiation",high,high,high,just_right,excellent,5
+fb_047,T022,2024-02-16,"Found better balance this week",medium,medium,medium,just_right,good,3
+fb_048,T027,2024-02-19,"Teacher respects all students",high,high,high,just_right,excellent,5
+fb_049,T023,2024-02-19,"More checking for understanding now",medium,high,medium,just_right,good,4
+fb_050,T024,2024-02-20,"More interactive now, much better",medium,medium,medium,just_right,good,3

@@ -1,0 +1,29 @@
+{
+  "subject": "Database Management System",
+  "topics": {
+    "database_fundamentals": {
+      "concepts": [
+        "Database is an organized collection of structured information stored electronically",
+        "DBMS software manages database creation, maintenance, and access operations",
+        "Relational databases organize data in tables with rows and columns",
+        "Primary keys uniquely identify each record in a database table"
+      ]
+    },
+    "sql_operations": {
+      "concepts": [
+        "SELECT statement retrieves data from one or more database tables",
+        "INSERT statement adds new records to database tables",
+        "UPDATE statement modifies existing records in tables",
+        "DELETE statement removes records from database tables"
+      ]
+    },
+    "database_design": {
+      "concepts": [
+        "Normalization reduces data redundancy and improves data integrity",
+        "Entity-Relationship diagrams model database structure and relationships",
+        "Foreign keys establish relationships between different tables",
+        "Indexing improves query performance by creating fast access paths"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+teacher_id,teacher_name,subject,primary_industry,alignment_score,skill_relevance,curriculum_match,industry_feedback,certification_level,last_industry_update
+T001,Dr. Sarah Smith,Mathematics,Data Science,89,88,81,4.3,Basic,2025-10-31
+T002,Prof. John Wilson,Science,Healthcare,75,77,89,4.1,Advanced,2025-11-18
+T003,Ms. Emily Davis,English,Media,91,89,83,4.3,Advanced,2025-11-07
+T004,Mr. Michael Brown,History,Government,79,87,94,4.1,Basic,2025-09-24
+T005,Dr. Lisa Johnson,Physics,Engineering,79,89,92,4.6,Intermediate,2025-10-15
+T006,Ms. Anna Garcia,Chemistry,Pharmaceuticals,82,76,80,4.6,Intermediate,2025-08-21
+T007,Mr. David Lee,Biology,Healthcare,94,87,90,4.0,Expert,2025-06-26
+T008,Prof. Maria Rodriguez,Literature,Publishing,89,87,83,4.6,Expert,2025-08-15

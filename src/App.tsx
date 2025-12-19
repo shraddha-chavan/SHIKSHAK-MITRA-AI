@@ -1,14 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Toaster } from '@/components/ui/toaster';
 import { Toaster as Sonner } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from '@/components/Navbar';
+import VoiceAssistant from '@/components/VoiceAssistant';
 import Index from './pages/Index';
 import TeacherDashboard from './pages/TeacherDashboard';
 import TeacherAnalytics from './pages/TeacherAnalytics';
-import ActivityGenerator from './pages/ActivityGenerator';
+import TeacherScoring from './pages/TeacherScoring';
+import AIInsights from './pages/AIInsights';
+import TeacherFeedback from './pages/TeacherFeedback';
 import ManagementDashboard from './pages/ManagementDashboard';
 import TeacherComparison from './pages/TeacherComparison';
 import IndustryAlignment from './pages/IndustryAlignment';
@@ -20,6 +23,15 @@ const queryClient = new QueryClient();
 
 const App = () => {
   const [role, setRole] = useState<'teacher' | 'admin'>('teacher');
+
+  useEffect(() => {
+    // Auto-enable voice when in teacher mode
+    if (role === 'teacher') {
+      import('./services/voiceService').then(({ voiceService }) => {
+        setTimeout(() => voiceService.enable(), 1000);
+      });
+    }
+  }, [role]);
 
   const toggleRole = () => {
     setRole(prev => prev === 'teacher' ? 'admin' : 'teacher');
@@ -38,7 +50,9 @@ const App = () => {
                 <Route path="/" element={<Index />} />
                 <Route path="/teacher-dashboard" element={<TeacherDashboard />} />
                 <Route path="/teacher-analytics" element={<TeacherAnalytics />} />
-                <Route path="/activity-generator" element={<ActivityGenerator />} />
+                <Route path="/teacher-scoring" element={<TeacherScoring />} />
+                <Route path="/ai-insights" element={<AIInsights />} />
+                <Route path="/teacher-feedback" element={<TeacherFeedback />} />
                 <Route path="/management-dashboard" element={<ManagementDashboard />} />
                 <Route path="/teacher-comparison" element={<TeacherComparison />} />
                 <Route path="/industry-alignment" element={<IndustryAlignment />} />
@@ -48,6 +62,9 @@ const App = () => {
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
+            
+            {/* Voice Assistant - only show in teacher mode */}
+            {role === 'teacher' && <VoiceAssistant />}
           </div>
         </BrowserRouter>
       </TooltipProvider>

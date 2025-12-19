@@ -1,0 +1,17 @@
+{
+  "name": "shikshak-mitra-feedback-server",
+  "version": "1.0.0",
+  "description": "Feedback server for Shikshak Mitra AI",
+  "main": "feedback_server.js",
+  "scripts": {
+    "start": "node feedback_server.js",
+    "dev": "nodemon feedback_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

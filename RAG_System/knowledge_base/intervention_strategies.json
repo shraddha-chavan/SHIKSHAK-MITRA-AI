@@ -1,0 +1,247 @@
+{
+  "interventions": [
+    {
+      "id": "int_low_engagement",
+      "problem": "Low Engagement (<50%)",
+      "severity": "critical",
+      "immediate_actions": [
+        "Switch to active learning activity within next 5 minutes",
+        "Use think-pair-share for next concept",
+        "Ask students to stand and discuss with neighbor",
+        "Introduce a quick game or competition related to topic"
+      ],
+      "short_term_strategies": [
+        "Increase question frequency to 20+ per class",
+        "Implement cold calling with support",
+        "Use more real-world examples and stories",
+        "Incorporate student choice in activities"
+      ],
+      "long_term_strategies": [
+        "Redesign lessons with 60% active learning",
+        "Build stronger relationships with students",
+        "Use project-based learning approaches",
+        "Implement gamification elements"
+      ],
+      "expected_improvement": "40-60% increase in 2-3 weeks"
+    },
+    {
+      "id": "int_low_attention",
+      "problem": "Low Attention (<45%)",
+      "severity": "critical",
+      "immediate_actions": [
+        "Take 2-minute attention reset break immediately",
+        "Change teaching modality (if lecturing, switch to visual/activity)",
+        "Move around classroom more",
+        "Use surprise element or interesting fact"
+      ],
+      "short_term_strategies": [
+        "Break lessons into 15-minute segments",
+        "Increase use of visuals and demonstrations",
+        "Implement movement breaks every 20 minutes",
+        "Use more varied voice tone and pacing"
+      ],
+      "long_term_strategies": [
+        "Redesign classroom layout for better visibility",
+        "Incorporate multimodal teaching consistently",
+        "Use technology tools for engagement",
+        "Implement brain breaks routine"
+      ],
+      "expected_improvement": "35-50% increase in 2-3 weeks"
+    },
+    {
+      "id": "int_low_curiosity",
+      "problem": "Low Curiosity Index (<40)",
+      "severity": "high",
+      "immediate_actions": [
+        "Pose an intriguing question or paradox",
+        "Show a surprising demonstration or video",
+        "Ask 'What if...' or 'Why do you think...' questions",
+        "Share a mystery or puzzle related to topic"
+      ],
+      "short_term_strategies": [
+        "Start each lesson with a hook or mystery",
+        "Use Socratic questioning method",
+        "Encourage student questions with rewards",
+        "Connect topics to student interests"
+      ],
+      "long_term_strategies": [
+        "Implement inquiry-based learning",
+        "Create wonder wall for student questions",
+        "Use phenomenon-based science approach",
+        "Develop student-led research projects"
+      ],
+      "expected_improvement": "45-65% increase in 3-4 weeks"
+    },
+    {
+      "id": "int_low_retention",
+      "problem": "Low Retention Score (<50)",
+      "severity": "high",
+      "immediate_actions": [
+        "Do immediate recap of last 10 minutes",
+        "Have students explain to partner what they learned",
+        "Create quick visual summary on board",
+        "Use retrieval practice with 3-5 questions"
+      ],
+      "short_term_strategies": [
+        "Implement spaced repetition schedule",
+        "Start each class with review of previous lesson",
+        "Use more concrete examples and analogies",
+        "Increase student practice time"
+      ],
+      "long_term_strategies": [
+        "Implement interleaved practice",
+        "Use cumulative assessments",
+        "Teach memory strategies explicitly",
+        "Connect all new learning to prior knowledge"
+      ],
+      "expected_improvement": "50-70% increase in 4-5 weeks"
+    },
+    {
+      "id": "int_pacing_too_fast",
+      "problem": "Teaching Pace Too Fast (>180 WPM)",
+      "severity": "medium",
+      "immediate_actions": [
+        "Consciously slow down speaking rate",
+        "Add more pauses between concepts",
+        "Check for understanding more frequently",
+        "Repeat key points slowly"
+      ],
+      "short_term_strategies": [
+        "Practice speaking at 140-160 WPM",
+        "Build in 5-second pauses after questions",
+        "Use timer to pace lesson segments",
+        "Record yourself and review pacing"
+      ],
+      "long_term_strategies": [
+        "Reduce content coverage, increase depth",
+        "Plan lessons with specific time allocations",
+        "Use pacing guides and timers",
+        "Get peer feedback on pacing"
+      ],
+      "expected_improvement": "Optimal pacing in 1-2 weeks"
+    },
+    {
+      "id": "int_pacing_too_slow",
+      "problem": "Teaching Pace Too Slow (<120 WPM)",
+      "severity": "medium",
+      "immediate_actions": [
+        "Increase energy and enthusiasm",
+        "Remove unnecessary filler words",
+        "Tighten explanations",
+        "Move through easier content faster"
+      ],
+      "short_term_strategies": [
+        "Practice speaking at 140-160 WPM",
+        "Plan more content per lesson",
+        "Use concise language",
+        "Increase student activity time"
+      ],
+      "long_term_strategies": [
+        "Restructure lessons for better flow",
+        "Use flipped classroom for basic content",
+        "Increase rigor and complexity",
+        "Get peer feedback on pacing"
+      ],
+      "expected_improvement": "Optimal pacing in 1-2 weeks"
+    },
+    {
+      "id": "int_low_interaction",
+      "problem": "Low Interaction Rate (<30%)",
+      "severity": "high",
+      "immediate_actions": [
+        "Implement turn-and-talk right now",
+        "Ask for show of hands on multiple questions",
+        "Use equity sticks for next 5 questions",
+        "Have students write response then share"
+      ],
+      "short_term_strategies": [
+        "Set goal of 70% student talk time",
+        "Use structured discussion protocols",
+        "Implement cold calling with support",
+        "Create safe environment for participation"
+      ],
+      "long_term_strategies": [
+        "Build classroom culture of participation",
+        "Use collaborative learning structures",
+        "Teach discussion skills explicitly",
+        "Implement peer teaching regularly"
+      ],
+      "expected_improvement": "50-70% increase in 3-4 weeks"
+    },
+    {
+      "id": "int_negative_sentiment",
+      "problem": "Negative Classroom Sentiment",
+      "severity": "high",
+      "immediate_actions": [
+        "Use positive, encouraging language",
+        "Smile and show enthusiasm",
+        "Acknowledge student effort and progress",
+        "Share something positive or humorous"
+      ],
+      "short_term_strategies": [
+        "Greet students warmly each day",
+        "Use growth mindset language consistently",
+        "Celebrate small wins and improvements",
+        "Build individual relationships"
+      ],
+      "long_term_strategies": [
+        "Implement social-emotional learning",
+        "Create positive classroom rituals",
+        "Address underlying issues causing negativity",
+        "Involve students in creating positive culture"
+      ],
+      "expected_improvement": "40-60% improvement in 2-3 weeks"
+    },
+    {
+      "id": "int_few_questions",
+      "problem": "Too Few Questions Asked (<10 per class)",
+      "severity": "medium",
+      "immediate_actions": [
+        "Prepare 5 questions for next 15 minutes",
+        "Use question stems: 'Why...', 'How...', 'What if...'",
+        "Ask for student questions",
+        "Use think-pair-share format"
+      ],
+      "short_term_strategies": [
+        "Pre-plan 15-20 questions per lesson",
+        "Use Bloom's Taxonomy for question variety",
+        "Implement Socratic seminar format",
+        "Train yourself to ask more questions"
+      ],
+      "long_term_strategies": [
+        "Make questioning a core teaching practice",
+        "Use inquiry-based learning approach",
+        "Develop question banks for each topic",
+        "Get feedback on questioning techniques"
+      ],
+      "expected_improvement": "Optimal questioning in 1-2 weeks"
+    }
+  ],
+  "progressive_intervention_framework": {
+    "level_1_immediate": {
+      "timeframe": "0-5 minutes",
+      "actions": "Quick fixes to address immediate issues",
+      "examples": "Attention reset, change activity, pose question"
+    },
+    "level_2_same_class": {
+      "timeframe": "Within same class period",
+      "actions": "Adjust teaching approach for remainder of class",
+      "examples": "Increase questions, add activity, change pacing"
+    },
+    "level_3_next_class": {
+      "timeframe": "Next 1-3 classes",
+      "actions": "Implement targeted strategies",
+      "examples": "New engagement techniques, different lesson structure"
+    },
+    "level_4_weekly": {
+      "timeframe": "1-2 weeks",
+      "actions": "Systematic changes to teaching practice",
+      "examples": "Consistent use of new strategies, habit formation"
+    },
+    "level_5_longterm": {
+      "timeframe": "3-8 weeks",
+      "actions": "Fundamental shifts in teaching approach",
+      "examples": "Redesign curriculum, change classroom culture"
+    }
+  }
+}

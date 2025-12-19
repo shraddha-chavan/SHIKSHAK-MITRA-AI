@@ -1,0 +1,13 @@
+subject,required_skills,preferred_teaching_style,difficulty_level,student_level,key_topics
+AI/ML Course,"Python, Machine Learning, Deep Learning, Statistics","Interactive, Project-based, Hands-on",Advanced,Graduate,"Neural Networks, NLP, Computer Vision, Model Training"
+Advanced Mathematics,"Calculus, Linear Algebra, Differential Equations","Analytical, Problem-solving, Conceptual",Advanced,Undergraduate,"Advanced Calculus, Abstract Algebra, Real Analysis"
+Quantum Physics,"Quantum Mechanics, Mathematics, Physics Fundamentals","Theoretical, Visual, Mathematical",Advanced,Graduate,"Wave Functions, Operators, Quantum States"
+Data Science,"Statistics, Python, Data Analysis, Visualization","Practical, Project-based, Real-world",Intermediate,Graduate,"Data Mining, Statistical Analysis, ML Applications"
+Web Development,"HTML, CSS, JavaScript, Frameworks","Coding-focused, Practical, Interactive",Intermediate,Undergraduate,"Frontend, Backend, Full Stack, APIs"
+Organic Chemistry,"Chemistry Fundamentals, Lab Skills, Molecular Structure","Lab-focused, Practical, Visual",Intermediate,Undergraduate,"Reactions, Synthesis, Mechanisms"
+Genetics,"Biology, Molecular Biology, Research Methods","Research-oriented, Visual, Practical",Advanced,Graduate,"DNA, Gene Expression, Genetic Engineering"
+Microeconomics,"Economics Theory, Mathematics, Analysis","Case-study, Real-world, Analytical",Intermediate,Undergraduate,"Supply-Demand, Market Structures, Game Theory"
+Ancient History,"Historical Knowledge, Research, Context","Storytelling, Contextual, Discussion",Intermediate,Undergraduate,"Civilizations, Culture, Historical Events"
+Creative Writing,"Literature, Language, Creativity","Discussion-based, Creative, Interactive",Intermediate,Undergraduate,"Poetry, Fiction, Essays, Narrative"
+Cloud Computing,"Programming, Networking, Cloud Platforms","Practical, Hands-on, Project-based",Intermediate,Graduate,"AWS, Azure, Microservices, DevOps"
+Biotechnology,"Biology, Chemistry, Lab Techniques","Research-oriented, Lab-focused, Practical",Advanced,Graduate,"Genetic Engineering, Bioprocessing, Bioinformatics"

@@ -1,0 +1,29 @@
+{
+  "subject": "Software Testing",
+  "topics": {
+    "testing_fundamentals": {
+      "concepts": [
+        "Software testing is the process of evaluating and verifying that a software application works as expected",
+        "Testing helps identify bugs, gaps, or missing requirements versus actual requirements",
+        "Main objectives include verification, validation, and defect detection",
+        "Testing can be manual or automated depending on project requirements"
+      ]
+    },
+    "testing_types": {
+      "concepts": [
+        "Unit testing focuses on individual components or modules",
+        "Integration testing verifies interfaces between components", 
+        "System testing evaluates complete integrated system",
+        "Acceptance testing validates system meets business requirements"
+      ]
+    },
+    "test_design": {
+      "concepts": [
+        "Black box testing examines functionality without internal structure knowledge",
+        "White box testing requires knowledge of internal code structure",
+        "Test cases should cover normal, boundary, and error conditions",
+        "Equivalence partitioning divides input data into valid and invalid partitions"
+      ]
+    }
+  }
+}

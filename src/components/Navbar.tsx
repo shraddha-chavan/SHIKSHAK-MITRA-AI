@@ -17,7 +17,9 @@ export const Navbar = ({ role, onRoleToggle }: NavbarProps) => {
     { to: '/', label: 'Home' },
     { to: '/teacher-dashboard', label: 'Dashboard' },
     { to: '/teacher-analytics', label: 'Analytics' },
-    { to: '/activity-generator', label: 'Activities' },
+    { to: '/teacher-scoring', label: 'Scoring' },
+    { to: '/ai-insights', label: 'AI Insights' },
+    { to: '/teacher-feedback', label: 'Feedback' },
   ];
 
   const adminLinks = [

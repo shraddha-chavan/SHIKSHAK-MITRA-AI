@@ -1,0 +1,29 @@
+{
+  "subject": "Programming Fundamentals",
+  "topics": {
+    "basic_concepts": {
+      "concepts": [
+        "Programming is the process of creating instructions for computers using programming languages",
+        "Variables store data values that can be modified during program execution",
+        "Data types define the kind of data that can be stored (int, float, string, boolean)",
+        "Algorithms are step-by-step procedures for solving computational problems"
+      ]
+    },
+    "control_structures": {
+      "concepts": [
+        "Sequential execution runs statements one after another in order",
+        "Conditional statements (if-else) allow decision making in programs",
+        "Loops (for, while) enable repetitive execution of code blocks",
+        "Functions encapsulate reusable code blocks with parameters and return values"
+      ]
+    },
+    "data_structures": {
+      "concepts": [
+        "Arrays store multiple elements of same data type in contiguous memory",
+        "Lists provide dynamic storage with insertion and deletion operations",
+        "Stacks follow Last-In-First-Out (LIFO) principle for data access",
+        "Queues implement First-In-First-Out (FIFO) ordering for elements"
+      ]
+    }
+  }
+}

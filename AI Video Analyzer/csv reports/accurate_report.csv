@@ -1,0 +1,27 @@
+Metric,Value
+Duration (seconds),10.24
+Total Students,21
+Frames Processed,256
+
+Student ID,Engagement Score,Attention Score,Hand Raises
+Student_1,88.38,94.72,0
+Student_2,99.38,99.67,0
+Student_3,95.22,99.47,0
+Student_4,98.84,97.18,0
+Student_5,15.0,50.0,0
+Student_6,15.0,50.0,0
+Student_7,46.57,99.19,0
+Student_8,26.4,77.49,0
+Student_9,29.01,99.57,0
+Student_10,19.72,67.8,0
+Student_11,25.82,78.14,0
+Student_12,15.0,50.0,0
+Student_13,98.77,97.72,0
+Student_14,15.0,50.0,0
+Student_15,15.0,50.0,0
+Student_16,15.0,50.0,0
+Student_17,15.0,50.0,0
+Student_18,15.0,50.0,0
+Student_19,15.0,50.0,0
+Student_20,23.32,70.36,0
+Student_21,15.0,50.0,0

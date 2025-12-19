@@ -1,0 +1,121 @@
+{
+  "mathematics": {
+    "engagement_strategies": [
+      "Use real-world problem solving scenarios",
+      "Implement math games and competitions",
+      "Show multiple solution methods",
+      "Use manipulatives and visual representations",
+      "Connect to student interests (sports stats, gaming, money)"
+    ],
+    "optimal_wpm": "120-140",
+    "question_types": [
+      "How did you solve this?",
+      "Can you explain your thinking?",
+      "Is there another way to approach this?",
+      "What pattern do you notice?",
+      "Why does this method work?"
+    ],
+    "retention_boosters": [
+      "Daily warm-up problems reviewing previous concepts",
+      "Error analysis activities",
+      "Student-created example problems",
+      "Concept mapping",
+      "Teach-back method"
+    ]
+  },
+  "science": {
+    "engagement_strategies": [
+      "Hands-on experiments and demonstrations",
+      "Phenomenon-based learning",
+      "Use of simulations and models",
+      "Connect to current events and technology",
+      "Student-led investigations"
+    ],
+    "optimal_wpm": "130-150",
+    "question_types": [
+      "What do you observe?",
+      "Why do you think this happened?",
+      "What would happen if...?",
+      "How can we test this?",
+      "What evidence supports this?"
+    ],
+    "retention_boosters": [
+      "Lab notebooks with reflections",
+      "Concept diagrams and flowcharts",
+      "Peer teaching of scientific concepts",
+      "Real-world application projects",
+      "Science journaling"
+    ]
+  },
+  "language_arts": {
+    "engagement_strategies": [
+      "Choice in reading materials",
+      "Socratic seminars and literature circles",
+      "Creative writing with authentic audiences",
+      "Multimedia presentations",
+      "Debate and discussion"
+    ],
+    "optimal_wpm": "140-160",
+    "question_types": [
+      "What does this text mean to you?",
+      "Why did the author make this choice?",
+      "How does this connect to your life?",
+      "What evidence supports your interpretation?",
+      "How would you rewrite this?"
+    ],
+    "retention_boosters": [
+      "Reading response journals",
+      "Vocabulary in context activities",
+      "Annotation strategies",
+      "Story mapping and character analysis",
+      "Writing conferences"
+    ]
+  },
+  "social_studies": {
+    "engagement_strategies": [
+      "Primary source analysis",
+      "Historical simulations and role-plays",
+      "Current events connections",
+      "Debate controversial topics",
+      "Project-based learning"
+    ],
+    "optimal_wpm": "135-155",
+    "question_types": [
+      "Why did this event happen?",
+      "How does this affect us today?",
+      "What would you have done?",
+      "What are multiple perspectives on this?",
+      "How is this similar to/different from...?"
+    ],
+    "retention_boosters": [
+      "Timeline creation",
+      "Cause-and-effect mapping",
+      "Historical thinking routines",
+      "Document-based questions",
+      "Comparative analysis"
+    ]
+  },
+  "general_strategies": {
+    "differentiation": [
+      "Provide multiple entry points to content",
+      "Offer choice in demonstrating learning",
+      "Use flexible grouping",
+      "Scaffold for struggling students",
+      "Extend for advanced students"
+    ],
+    "technology_integration": [
+      "Use interactive simulations",
+      "Implement digital collaboration tools",
+      "Create multimedia presentations",
+      "Use formative assessment apps",
+      "Leverage educational games"
+    ],
+    "cultural_responsiveness": [
+      "Include diverse perspectives and examples",
+      "Connect to students' cultural backgrounds",
+      "Use culturally relevant materials",
+      "Validate different ways of knowing",
+      "Build on students' funds of knowledge"
+    ]
+  }
+}

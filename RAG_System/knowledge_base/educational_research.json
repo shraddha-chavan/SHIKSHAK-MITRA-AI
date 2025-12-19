@@ -1,0 +1,163 @@
+{
+  "research_findings": [
+    {
+      "id": "res_001",
+      "topic": "Optimal Class Duration",
+      "finding": "Student attention drops significantly after 15-20 minutes without intervention",
+      "source": "Cognitive Load Theory - Sweller et al.",
+      "recommendation": "Break lessons into 15-minute segments with active learning transitions",
+      "metrics_impact": {
+        "attention": "Maintains 80%+ attention throughout class",
+        "retention": "Improves by 45%"
+      }
+    },
+    {
+      "id": "res_002",
+      "topic": "Question Frequency",
+      "finding": "Teachers should ask 15-20 questions per 45-minute class for optimal engagement",
+      "source": "Questioning Strategies Research - Cotton, 1988",
+      "recommendation": "Ask mix of recall (40%), comprehension (30%), and higher-order (30%) questions",
+      "metrics_impact": {
+        "engagement": "Increases by 60%",
+        "curiosity_index": "Improves by 55%"
+      }
+    },
+    {
+      "id": "res_003",
+      "topic": "Wait Time",
+      "finding": "Waiting 3-5 seconds after asking a question increases quality of responses by 400%",
+      "source": "Wait Time Research - Rowe, 1986",
+      "recommendation": "Implement structured wait time: 3-5 seconds after question, 3 seconds after response",
+      "metrics_impact": {
+        "interaction_rate": "Increases by 70%",
+        "curiosity_index": "Improves by 65%"
+      }
+    },
+    {
+      "id": "res_004",
+      "topic": "Active Learning",
+      "finding": "Active learning increases retention by 50% compared to passive lectures",
+      "source": "Meta-analysis - Freeman et al., 2014",
+      "recommendation": "Spend 60% of class time on active learning activities",
+      "metrics_impact": {
+        "retention_score": "Increases by 50%",
+        "engagement": "Improves by 65%"
+      }
+    },
+    {
+      "id": "res_005",
+      "topic": "Feedback Timing",
+      "finding": "Immediate feedback is 3x more effective than delayed feedback",
+      "source": "Feedback Research - Hattie & Timperley, 2007",
+      "recommendation": "Provide feedback within same class session, ideally within 5 minutes",
+      "metrics_impact": {
+        "retention_score": "Increases by 60%",
+        "teacher_impact_score": "Improves by 55%"
+      }
+    },
+    {
+      "id": "res_006",
+      "topic": "Student Talk Time",
+      "finding": "Optimal teacher-student talk ratio is 30:70 for maximum learning",
+      "source": "Classroom Discourse Research - Alexander, 2008",
+      "recommendation": "Teacher talks 30% of time, students talk/work 70% of time",
+      "metrics_impact": {
+        "engagement": "Increases by 75%",
+        "retention_score": "Improves by 55%"
+      }
+    },
+    {
+      "id": "res_007",
+      "topic": "Multimodal Learning",
+      "finding": "Using 3+ modalities (visual, auditory, kinesthetic) improves retention by 65%",
+      "source": "Dual Coding Theory - Paivio, 1986",
+      "recommendation": "Incorporate visuals, audio, text, and hands-on activities in every lesson",
+      "metrics_impact": {
+        "retention_score": "Increases by 65%",
+        "attention": "Improves by 50%"
+      }
+    },
+    {
+      "id": "res_008",
+      "topic": "Peer Teaching",
+      "finding": "Students retain 90% of what they teach to others",
+      "source": "Learning Pyramid - National Training Laboratories",
+      "recommendation": "Include peer teaching activities in 30% of lessons",
+      "metrics_impact": {
+        "retention_score": "Increases by 90%",
+        "engagement": "Improves by 70%"
+      }
+    },
+    {
+      "id": "res_009",
+      "topic": "Emotional Climate",
+      "finding": "Positive emotional climate increases learning by 40%",
+      "source": "Social-Emotional Learning Research - CASEL",
+      "recommendation": "Start with positive greeting, use encouraging language, celebrate effort",
+      "metrics_impact": {
+        "engagement": "Increases by 55%",
+        "teacher_impact_score": "Improves by 60%"
+      }
+    },
+    {
+      "id": "res_010",
+      "topic": "Cognitive Load",
+      "finding": "Presenting too much information at once reduces retention by 50%",
+      "source": "Cognitive Load Theory - Sweller, 1988",
+      "recommendation": "Chunk information into 3-5 main points per segment, use scaffolding",
+      "metrics_impact": {
+        "retention_score": "Improves by 55%",
+        "attention": "Increases by 45%"
+      }
+    }
+  ],
+  "benchmarks": {
+    "engagement_score": {
+      "excellent": ">85%",
+      "good": "70-85%",
+      "needs_improvement": "50-70%",
+      "critical": "<50%"
+    },
+    "attention_score": {
+      "excellent": ">80%",
+      "good": "65-80%",
+      "needs_improvement": "45-65%",
+      "critical": "<45%"
+    },
+    "retention_score": {
+      "excellent": ">80",
+      "good": "65-80",
+      "needs_improvement": "50-65",
+      "critical": "<50"
+    },
+    "curiosity_index": {
+      "excellent": ">75",
+      "good": "60-75",
+      "needs_improvement": "40-60",
+      "critical": "<40"
+    },
+    "teacher_impact_score": {
+      "excellent": ">85",
+      "good": "70-85",
+      "needs_improvement": "55-70",
+      "critical": "<55"
+    },
+    "words_per_minute": {
+      "too_slow": "<120",
+      "optimal_complex": "120-160",
+      "optimal_review": "160-180",
+      "too_fast": ">180"
+    },
+    "questions_per_class": {
+      "too_few": "<10",
+      "optimal": "15-20",
+      "excellent": ">20"
+    },
+    "interaction_rate": {
+      "excellent": ">70%",
+      "good": "50-70%",
+      "needs_improvement": "30-50%",
+      "critical": "<30%"
+    }
+  }
+}

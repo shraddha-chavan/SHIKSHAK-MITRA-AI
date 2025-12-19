@@ -1,0 +1,177 @@
+{
+  "engagement_strategies": [
+    {
+      "id": "eng_001",
+      "category": "Active Learning",
+      "title": "Think-Pair-Share Technique",
+      "description": "Students think individually, discuss with a partner, then share with the class. Increases participation by 65%.",
+      "optimal_wpm": "120-150",
+      "engagement_boost": 65,
+      "attention_boost": 45,
+      "best_for": "low_engagement",
+      "implementation": "Pose a question, give 2 min individual thinking, 3 min pair discussion, 5 min class sharing"
+    },
+    {
+      "id": "eng_002",
+      "category": "Questioning",
+      "title": "Socratic Questioning Method",
+      "description": "Ask open-ended questions that stimulate critical thinking. Increases curiosity index by 70%.",
+      "questions_per_class": "15-20",
+      "curiosity_boost": 70,
+      "retention_boost": 55,
+      "best_for": "low_curiosity",
+      "implementation": "Use 'Why', 'How', 'What if' questions. Wait 5-7 seconds for responses."
+    },
+    {
+      "id": "eng_003",
+      "category": "Pacing",
+      "title": "Optimal Teaching Speed",
+      "description": "Maintain 130-160 WPM for complex topics, 160-180 WPM for review sessions.",
+      "optimal_wpm_complex": "130-160",
+      "optimal_wpm_review": "160-180",
+      "attention_boost": 40,
+      "retention_boost": 50,
+      "best_for": "pacing_issues",
+      "implementation": "Use pauses every 10-12 minutes. Check for understanding signals."
+    },
+    {
+      "id": "eng_004",
+      "category": "Interactive",
+      "title": "Cold Calling with Support",
+      "description": "Randomly call on students but provide thinking time first. Increases attention by 60%.",
+      "attention_boost": 60,
+      "engagement_boost": 50,
+      "best_for": "low_attention",
+      "implementation": "Announce question, wait 10 seconds, then call on student. Provide scaffolding if needed."
+    },
+    {
+      "id": "eng_005",
+      "category": "Feedback",
+      "title": "Real-Time Formative Assessment",
+      "description": "Use quick checks every 15 minutes to gauge understanding. Improves retention by 65%.",
+      "retention_boost": 65,
+      "engagement_boost": 45,
+      "frequency": "every_15_minutes",
+      "best_for": "low_retention",
+      "implementation": "Use thumbs up/down, mini-quizzes, or digital polls"
+    }
+  ],
+  "attention_strategies": [
+    {
+      "id": "att_001",
+      "category": "Focus Management",
+      "title": "Attention Reset Technique",
+      "description": "Brief 2-minute activities to reset attention spans. Research shows 85% attention recovery.",
+      "attention_recovery": 85,
+      "frequency": "every_20_minutes",
+      "best_for": "low_attention",
+      "implementation": "Quick stretch, brain teaser, or relevant story"
+    },
+    {
+      "id": "att_002",
+      "category": "Visual Aids",
+      "title": "Multi-Modal Presentation",
+      "description": "Combine visual, auditory, and kinesthetic elements. Increases attention by 70%.",
+      "attention_boost": 70,
+      "retention_boost": 60,
+      "best_for": "low_attention",
+      "implementation": "Use diagrams, videos, demonstrations, and hands-on activities"
+    },
+    {
+      "id": "att_003",
+      "category": "Movement",
+      "title": "Strategic Movement Breaks",
+      "description": "Incorporate movement every 25 minutes. Boosts attention by 55%.",
+      "attention_boost": 55,
+      "frequency": "every_25_minutes",
+      "best_for": "low_attention",
+      "implementation": "Stand and stretch, move to different groups, or physical demonstrations"
+    }
+  ],
+  "interaction_strategies": [
+    {
+      "id": "int_001",
+      "category": "Participation",
+      "title": "Equity Sticks Method",
+      "description": "Ensure all students participate equally. Increases hand raises by 80%.",
+      "interaction_boost": 80,
+      "engagement_boost": 60,
+      "best_for": "low_interaction",
+      "implementation": "Use name sticks/cards, track participation, ensure everyone contributes"
+    },
+    {
+      "id": "int_002",
+      "category": "Discussion",
+      "title": "Structured Academic Controversy",
+      "description": "Students debate different perspectives. Increases curiosity by 75%.",
+      "curiosity_boost": 75,
+      "engagement_boost": 70,
+      "best_for": "low_curiosity",
+      "implementation": "Assign positions, research, debate, then switch sides"
+    },
+    {
+      "id": "int_003",
+      "category": "Collaboration",
+      "title": "Jigsaw Learning",
+      "description": "Students become experts on subtopics and teach peers. Boosts retention by 80%.",
+      "retention_boost": 80,
+      "engagement_boost": 75,
+      "best_for": "low_engagement",
+      "implementation": "Divide topic into parts, expert groups study, then teach home groups"
+    }
+  ],
+  "sentiment_strategies": [
+    {
+      "id": "sent_001",
+      "category": "Positive Climate",
+      "title": "Growth Mindset Language",
+      "description": "Use language that promotes learning from mistakes. Improves sentiment by 65%.",
+      "sentiment_boost": 65,
+      "engagement_boost": 50,
+      "best_for": "negative_sentiment",
+      "implementation": "Say 'not yet' instead of 'no', celebrate effort and progress"
+    },
+    {
+      "id": "sent_002",
+      "category": "Relationship Building",
+      "title": "Personal Connection Time",
+      "description": "Spend 2 minutes at start connecting personally. Increases engagement by 55%.",
+      "engagement_boost": 55,
+      "sentiment_boost": 70,
+      "best_for": "negative_sentiment",
+      "implementation": "Greet students, share relevant personal story, show genuine interest"
+    }
+  ],
+  "retention_strategies": [
+    {
+      "id": "ret_001",
+      "category": "Memory",
+      "title": "Spaced Repetition",
+      "description": "Review material at increasing intervals. Improves retention by 90%.",
+      "retention_boost": 90,
+      "schedule": "immediate, 1_day, 3_days, 1_week",
+      "best_for": "low_retention",
+      "implementation": "Quick review at start, mid-class recap, end summary, next-day warm-up"
+    },
+    {
+      "id": "ret_002",
+      "category": "Elaboration",
+      "title": "Connect to Prior Knowledge",
+      "description": "Link new concepts to existing knowledge. Increases retention by 75%.",
+      "retention_boost": 75,
+      "engagement_boost": 50,
+      "best_for": "low_retention",
+      "implementation": "Start with 'What do you already know about...', use analogies, real-world examples"
+    },
+    {
+      "id": "ret_003",
+      "category": "Retrieval Practice",
+      "title": "Low-Stakes Testing",
+      "description": "Frequent quizzes without grades. Boosts retention by 85%.",
+      "retention_boost": 85,
+      "frequency": "every_class",
+      "best_for": "low_retention",
+      "implementation": "3-5 question quiz at start or end, immediate feedback, no grade impact"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "subject": "System Programming and Operating Systems",
+  "topics": {
+    "os_fundamentals": {
+      "concepts": [
+        "Operating system manages computer hardware and provides services to applications",
+        "Kernel is the core component that handles system calls and resource management",
+        "Process management involves creating, scheduling, and terminating processes",
+        "Memory management allocates and deallocates memory for running programs"
+      ]
+    },
+    "process_management": {
+      "concepts": [
+        "Processes are programs in execution with their own memory space",
+        "Threads are lightweight processes sharing memory within same process",
+        "CPU scheduling algorithms determine which process runs next",
+        "Synchronization mechanisms prevent race conditions in concurrent programs"
+      ]
+    },
+    "file_systems": {
+      "concepts": [
+        "File systems organize and store data on storage devices",
+        "Directory structures provide hierarchical organization of files",
+        "File allocation methods include contiguous, linked, and indexed allocation",
+        "File permissions control access rights for users and groups"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+Metric,Value
+Video Duration (seconds),10.24
+Total Students,16
+Frames Processed,256
+
+AGGREGATE METRICS,
+Average Focus Score,58.8
+Average Sentiment,55.44
+Total Interactions,13
+Total Doubts,8
+
+STUDENT DETAILS,
+Student ID,Focus Score,Sentiment Score,Interactions,Doubts,Emotions
+S1,82.18,61.13,1,0,neutral:30
+S2,90.96,59.9,1,1,neutral:30
+S3,83.81,60.2,1,0,neutral:30
+S4,83.45,59.67,1,0,neutral:30
+S5,85.52,60.63,1,1,neutral:30
+S6,35.26,72.67,0,1,"confused:1, happy:3, neutral:2"
+S7,87.23,61.97,1,0,neutral:30
+S8,56.82,59.87,1,0,neutral:30
+S9,47.37,33.7,1,1,bored:30
+S10,55.44,87.6,1,0,happy:30
+S11,35.81,28.0,0,1,bored:1
+S12,37.27,37.0,1,1,"bored:1, confused:1"
+S13,30.22,57.0,0,0,neutral:2
+S14,47.16,56.33,1,1,"bored:1, neutral:2"
+S15,34.49,34.0,1,1,bored:1
+S16,47.88,57.44,1,0,neutral:16
