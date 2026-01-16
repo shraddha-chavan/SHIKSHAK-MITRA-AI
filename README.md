@@ -11,7 +11,7 @@
 
 <div align="center">
 
-### 🎯 [Live Demo](https://shikshak-mitra-ai.vercel.app) | 📊 [Interactive Dashboard](./Teacher_Analytics_Visualization/outputs/) | 🤖 [AI Pipeline](#-complete-ai-pipeline)
+### 🎯 [Live Demo](https://shikshak-mitra-ai.vercel.app/) | 📊 [Interactive Dashboard](./Teacher_Analytics_Visualization/outputs/) | 🤖 [AI Pipeline](#-complete-ai-pipeline)
 
 ![Performance Analytics](./Teacher_Analytics_Visualization/outputs/performance_trends.png)
 *Real-time Performance Analytics Dashboard*
@@ -394,16 +394,41 @@ kubectl get pods -n shikshak-ai
 
 ### 🖼️ Platform Screenshots
 
+## 📊 Main Dashboard Interface
+
 <div align="center">
 
-**Main Dashboard Interface**
-<img width="1899" height="965" alt="Screenshot 2025-12-12 171931" src="https://github.com/user-attachments/assets/a02f4ef6-46e4-4809-8d1e-4bd1ebfdd436" />
-<img width="1872" height="956" alt="Screenshot 2025-12-12 172240" src="https://github.com/user-attachments/assets/b9672bbf-5dc8-4a4f-a15d-de993a640af3" />
-*Interactive Web Platform - Real-time Analytics*
-<img width="1875" height="958" alt="Screenshot 2025-12-12 172443" src="https://github.com/user-attachments/assets/91780584-bc2c-4e89-a0a2-97cd419d09c8" />
-<img width="1879" height="958" alt="Screenshot 2025-12-12 172536" src="https://github.com/user-attachments/assets/9c5fb172-f5bd-4e3b-86e9-56c962a895f1" />
-<img width="1890" height="961" alt="Screenshot 2025-12-12 172622" src="https://github.com/user-attachments/assets/dfcce555-31ab-4ce8-97f4-752fd3116f05" />
-<img width="1876" height="964" alt="Screenshot 2025-12-12 172705" src="https://github.com/user-attachments/assets/ffb21a37-7fbe-4130-af4f-2a813c682736" />
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/dac0d042-65f3-4a1c-942c-07611384a8d9" width="450"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fb49cece-a329-4598-837b-14441dea8277" width="450"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/26f805c5-edc6-4ddc-8fc6-5a18e6d2badc" width="450"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/6b549898-7c13-48b5-853f-0759a77375e5" width="450"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/7141b185-8dd3-475e-a314-11ff43910479" width="450"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fd723318-a551-41e2-b94e-25b6bb46b402" width="450"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/user-attachments/assets/6e1b74d3-9feb-47e4-8f42-3dec916b0984" width="900"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -413,9 +438,16 @@ kubectl get pods -n shikshak-ai
 
 <div align="center">
 
-**Shikshak Mitra AI** is proudly developed by **Team INNOVIONS** - a group of passionate AI researchers, educators, and engineers dedicated to revolutionizing education through artificial intelligence.
+**Shikshak Mitra AI** is proudly developed by **Team INNOVIONS**, a collaborative group of passionate innovators committed to transforming education through AI-driven solutions.
+
+**Team Members**
+- **Chanchal Karna Chavhan**
+- **Shraddha Sunil Chavan**
+- **Kunal Sharad Gawand**
+- **Swarup Sachin Sandhan**
 
 </div>
+
 
 <details>
 <summary><b>👥 Meet Our Expert Team</b></summary>
@@ -485,7 +517,6 @@ If you find this project helpful, please consider:
 | 🤖 **OpenAI Integration** | [Test API](./RAG_System/openai_integration.py) | 🟢 Ready |
 | 📚 **Documentation** | [Complete Docs](./docs) | 🟢 Updated |
 | 🐛 **Issues & Support** | [GitHub Issues](https://github.com/CHANCHALCHAVHAN/Shikshak-Mitra-AI-/issues) | 🟢 Active |
-| 💬 **Community** | [Join Discord](https://discord.gg/shikshak-ai) | 🟢 Live |
 
 ---
 
